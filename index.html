@@ -19,7 +19,7 @@
 <body style="background-color: rgb(248, 245, 245);">
     <nav class="navbar navbar-expand-lg bg-info">
         <div class="container-fluid ">
-            <a class="navbar-brand" href="#">Library Management</a>
+            <a class="navbar-brand" href="#" style="color: #efff00 ;">Library Management</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
                 aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -52,14 +52,14 @@
             <div class="form-group row">
                 <label for="bookName" class="col-sm-2 col-form-label">Name</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="bookName" placeholder="Book Name">
+                    <input type="text" class="form-control w-50" id="bookName" placeholder="Book Name">
                 </div>
             </div>
             <br>
             <div class="form-group row">
                 <label for="Author" class="col-sm-2 col-form-label">Author</label>
                 <div class="col-sm-10">
-                    <input type="text" class="form-control" id="author" placeholder="Author Name">
+                    <input type="text" class="form-control w-50" id="author" placeholder="Author Name">
                 </div>
             </div>
             <fieldset class="form-group">
@@ -68,21 +68,21 @@
                     <legend class="col-form-label col-sm-2 pt-0">Type</legend>
                     <div class="col-sm-10">
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="type" id="philippine" value="philippine"
+                            <input class="form-check-input" type="radio" name="type" id="programming" value="programming"
                                 checked>
                             <label class="form-check-label" for="philippine">
                                 Computer Programming
                             </label>
                         </div>
                         <div class="form-check">
-                            <input class="form-check-input" type="radio" name="type" id="programming"
-                                value="programming">
-                            <label class="form-check-label" for="programming">
+                            <input class="form-check-input" type="radio" name="type" id="Hacking"
+                                value="Hacking">
+                            <label class="form-check-label" for="Hacking">
                                 Ehthical Hacking
                             </label>
                         </div>
                         <div class="form-check disabled">
-                            <input class="form-check-input" type="radio" name="type" id="science" value="science">
+                            <input class="form-check-input" type="radio" name="type" id="Fiction" value="Fiction">
                             <label class="form-check-label" for="science">
                                 Fiction
                             </label>
@@ -97,7 +97,7 @@
                 </div>
             </div>
         </form>
-<br><br><br>
+<br>
         <div id="table">
             <h1>Your books</h1>
             <hr>
@@ -105,6 +105,7 @@
             <table class="table table-striped">
                 <thead>
                     <tr>
+                        
                         <th scope="col">Name</th>
                         <th scope="col">Author</th>
                         <th scope="col">Type</th>
@@ -115,7 +116,7 @@
         </div>
     </div>
 
-    <link rel="stylesheet" href="library.js">
+    <script src="library.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
         crossorigin="anonymous"></script>
