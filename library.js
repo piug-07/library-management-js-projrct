@@ -76,8 +76,8 @@ function libraryFormsubmit(e) {
     else if (Hacking.checked) {
         type = Hacking.value
     }
-    else if (fiction.checked) {
-        type = fiction.value
+    else if (Fiction.checked) {
+        type = Fiction.value
     }
 
     let book = new Book(name, author, type);
